@@ -6,7 +6,11 @@
 conda create -n mmdp python=3.8
 conda activate mmdp
 
-git clone https://github.com/MIracleyin/mnbvc_mmda.git
+git submodule init
+git submodule update
+
+cd mnbvc_mmda
 pip install -e '.[dev,recipes]'
 ```
+
 
