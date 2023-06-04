@@ -1,0 +1,3 @@
+[submodule "mnbvc_mmda"]
+	path = mnbvc_mmda
+	url = https://github.com/MIracleyin/mnbvc_mmda.git
